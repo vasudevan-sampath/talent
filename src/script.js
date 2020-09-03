@@ -1,4 +1,4 @@
-var i = 12;
+var i = 13;
 
 function createImg2()
 {
@@ -44,7 +44,6 @@ function validate()
 		document.getElementById("Answer").value ="";
 		document.getElementById("Answer").focus();
 	 }
-	
 }
 
 function nextqn()
@@ -112,8 +111,8 @@ function nextqn()
 	  		  }
 }
 
-var vasu=[1,2,3,4,5,6,7,8,9,10,11,12];
-//var vasu =["SACHIN DANIEL OOMMEN","SHALINI","LAKSHMI PATHY S N","NIHARIKA SINHA","CINDY SALAZAR","ANUBHAV APURVA","AJIT MARUTHI KARALE","DEEPAK MAHENDRAKER","ILAVALUTHY MAHENDRAN","ASHOK VISWANATHAN","VASUDEVAN SAMPATH","VASUDEVAN SAMPATH"];   
+//var vasu=[1,2,3,4,5,6,7,8,9,10,11,12];
+var vasu =["SACHIN DANIEL OOMMEN","SHALINI","LAKSHMI PATHY S N","NIHARIKA SINHA","CINDY SALAZAR","ANUBHAV APURVA","AJIT MARUTHI KARALE","DEEPAK MAHENDRAKER","ILAVALUTHY MAHENDRAN","ASHOK VISWANATHAN","VASUDEVAN SAMPATH","VASUDEVAN SAMPATH"];   
 
 function process1()
 {
@@ -171,9 +170,8 @@ function page1()
 }
 function thankyoupage()
 {
-	alert("mas");
-	document.getElementById("c").style.display = "none";
 	document.getElementById("h").style.display = "none";
 	document.getElementById("k").style.display = "none";
-	document.getElementById("ty").style.display = "block";    
+    document.getElementById("c").innerHTML = "Thank you ALL <br /> <br /> Have a Nice Day!!!";
+    document.getElementById("c").style = "margin-top:200px;font-size:40px;";
 }
